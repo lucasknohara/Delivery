@@ -32,4 +32,4 @@ Enzo Eccheli Abolis
 
 ## Deploy
 
-Em breve.
+delivery-eight-flax.vercel.app
