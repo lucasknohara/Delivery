@@ -5,6 +5,7 @@ import Features from "./components/Features/Features.jsx"
 import Testimonials from "./components/Testimonials/Testimonials.jsx"
 import Contact from "./components/Contact/Contact.jsx"
 import Footer from "./components/Footer/Footer.jsx"
+import Recipes from "./components/Recipes/Recipes.jsx"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <About />
       <Features />
+      <Recipes />
       <Testimonials />
       <Contact />
       <Footer />
