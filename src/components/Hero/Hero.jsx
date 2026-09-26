@@ -1,3 +1,5 @@
+import imagem from "../../../public/ChurrascoDelicioso.jpg"
+
 function Hero() {
     return (
         <section id="home" className="min-h-screen bg-orange-50 px-6 pt-32">
@@ -10,7 +12,7 @@ function Hero() {
                 </div>
 
                 <div>
-                    <img src="../public/ChurrascoDelicioso.jpg" alt="Foto inicio" className="h-[450px] w-full max-w-xl rounded-3xl object-cover shadow-2xl"></img>
+                    <img src={imagem} alt="Foto inicio" className="h-[450px] w-full max-w-xl rounded-3xl object-cover shadow-2xl"></img>
                 </div>
             </div>
         </section>
