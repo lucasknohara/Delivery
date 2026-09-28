@@ -5,13 +5,21 @@ function Recipes() {
 
     useEffect(() => {
         async function buscarComidas() {
-            const response = await fetch(
-                "https://api.spoonacular.com/recipes/random?number=5&apiKey=9313d597cadf4b26bba133d4f3f34c01"
-            )
+            try {
+                const response = await fetch(
+                    "https://api.spoonacular.com/recipes/random?number=5&apiKey=24c4712addb5471483a516c5215522c4"
+                )
 
-            const data = await response.json()
+                if (!response.ok) {
+                    throw new Error(`Erro na API: ${response.status}`)
+                }
 
-            setComidas(data.recipes)
+                const data = await response.json()
+
+                setComidas(data.recipes)
+            } catch (error) {
+                console.error("Erro ao buscar receitas:", error)
+            }
         }
 
         buscarComidas()
