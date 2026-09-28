@@ -14,7 +14,7 @@ function Footer() {
                         </a>
 
                         <a href="lucasnohara51@gmail.com" className="text-gray-300 transition hover:text-white">
-                            lucasnohara51@gmail.com
+                            GourmetOn@gmail.com
                         </a>
                     
                         <a href="#termos" className="text-gray-300 transition hover:text-white">Termos de Uso</a>
